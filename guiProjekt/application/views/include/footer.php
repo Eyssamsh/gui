@@ -60,7 +60,7 @@
     <div class="toggle-theme">
         <i class="fas"></i>
     </div>
-    <div class="francais-theme" id="francais" >
+    <div class="francais-theme">
         <img src="<?php echo base_url('public/images/francaissprache.png'); ?>" alt="englisch">
     </div>
     <!-- Toggle Theme End -->
@@ -68,7 +68,7 @@
         <img src="<?php echo base_url('public/images/deutschsprache.png'); ?>" alt="englisch">
     </div>
     <!-- Toggle Theme End -->
-    <div class="englisch-theme" id="english" >
+    <div class="englisch-theme">
         <img src="<?php echo base_url('public/images/englischesprache.png'); ?>" alt="englisch">
     </div>
     <!-- Toggle Theme End -->
