@@ -32,7 +32,7 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <!-- Brand -->
-                <a class="navbar-brand" href="#" id="title">Mehrsprachigkeit</a>
+                <a class="navbar-brand" href="#" >Mehrsprachigkeit</a>
 
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

@@ -85,9 +85,6 @@
     <script src="<?php echo base_url('public/js/owl.carousel.min.js'); ?>" ></script>
     <!-- Scrollit Js -->
     <script src="<?php echo base_url('public/js/scrollIt.min.js'); ?>" ></script>
-    <!-- Mehrsprachigkeit Francais -->
-    <script src="<?php echo base_url('public/multilanguage/francais.js'); ?>" ></script>
-    <!-- Mehrsprachigkeit English -->
-    <script src="<?php echo base_url('public/multilanguage/english.js'); ?>" ></script>
+   
   </body>
 </html>
