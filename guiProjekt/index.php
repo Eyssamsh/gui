@@ -1,315 +1,380 @@
-<?php
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014 - 2019, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2019, British Columbia Institute of Technology (https://bcit.ca/)
- * @license	https://opensource.org/licenses/MIT	MIT License
- * @link	https://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
- */
+<?php include('./header.php'); ?>
+<!-- Home Section Start -->
+<section class="home d-flex align-items-center" data-scroll-index="0" >
+    <div class="effect-wrap">
+        <i class="fas fa-plus effect effect-1"></i>
+        <i class="fas fa-plus effect effect-2"></i>
+        <i class="fas fa-circle-notch effect effect-3"></i>
+    </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <div class="home-text">
+                        <h1>Prog. Graph Oberflächen</h1>
+                        <p>Auf dieser Webseite geht es um Mehrsprachigkeit. Wir werden euch erklären , wie man eine Applikation mit mehr Sprachen umsetzten kann. </p>
+                        <div class="home-btn">
+                            <a href="#"  data-scroll-goto="5"  class="btn btn-1">Code Source Herunterladen</a>
+                            <button type="button" class="btn btn-1 video-play-btn" >
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-5 text-center">
+                     <div class="home-img">
+                         <div class="circle"></div>
+                         <img src="images/deutsch.png" alt="Img App">
+                     </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Home Section End -->
+<!-- Pro Section Start -->
+<!-- faq Section Start -->
+<section class="faq section-padding" id="einfuehrung" data-scroll-index="1">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title">
+                    <h2>Introduction <span>Mehrsprachigkeit</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div id="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" data-toggle="collapse" data-target="#collapse-01">
+                            <h3>Definition</h3>
+                        </div>
+                        <div class="collapse show" id="collapse-01" data-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-02">
+                            <h3>Wie kann ich mehr als eine Sprache in meiner Appl umsetzten ?</h3>
+                        </div>
+                        <div class="collapse" id="collapse-02" data-parent="#accordion" >
+                            <div class="accordion-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header" data-toggle="collapse" data-target="#collapse-03">
+                            <h3>Vorteile</h3>
+                        </div>
+                        <div class="collapse" id="collapse-03" data-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header" data-toggle="collapse" data-target="#collapse-04">
+                            <h3>Nachteile</h3>
+                        </div>
+                        <div class="collapse" id="collapse-04" data-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+                                    tempor invidunt ut labore.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Faq Section End -->
+<section class="features section-padding" data-scroll-index="2" id="beispiele">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8"></div>
+            <div class="section-title">
+                <h2> Einfache <span> Beispiele</span> </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="owl-carousel features-carousel">
+                <div class="feature-item">
+                    <div class="icon"> <i class="fas fa-code"></i> </div>
+                    <h3>Android App</h3>
+                    <p>Wir haben für euch ein kleines einfaches komplettes Android App , die könnt ihr herunterladen und das Porjekt einfach offnen und weiter arbeiten .</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon"> <i class="fas fa-code"></i> </div>
+                    <h3>Php - statisch -</h3>
+                    <p>Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann. Was hier mit statisch und dynamisch gemeient ist , könnt gerne in unsere Ausarbeitung nachschauen.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon"> <i class="fas fa-code"></i> </div>
+                    <h3>Php - Dynamisch - </h3>
+                    <p>Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon"> <i class="fas fa-check"></i> </div>
+                    <h3>Javascript - statisch - </h3>
+                    <p> Diese Webseite wurde mit Javascript entwickelt , die wurden wir auch zur Verfügung stellen.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pro Section End -->
+<!-- Fun facts Section Start -->
+<section class="fun-facts section-padding" data-scroll-index="3" id="projekt">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-5 d-flex align-items-center justify-content-center">
+                <div class="fun-facts-img">
+                    <img src="images/deutsch.png" alt="Img App">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-7">
+                <div class="section-title">
+                    <h2>Mehr<span>sprachigkeit</span></h2>
+                </div>
+                <div class="fun-facts-text">
+                       <p> Diese Webseite wurde als Projekt für Prog.Graph Oberflächen bei Herr König entwickelt um die Studiereden zu helfen, 
+                           wie man eine Applikation mit meherern Sprachen entwicklen kann.
+                           Hier kann man sehen,was wir alles für diese Applikation benutzt haben.
+                        
+                       </p>
+                       
+                       <div class="row">
+                           <div class="col-sm-6">
+                               <div class="fun-fact-item style-1">
+                                   <h3>HTML</h3>
+                                   <span></span>
+                               </div>
+                           </div>
+                             <div class="col-sm-6">
+                               <div class="fun-fact-item style-2">
+                                   <h3>CSS3</h3>
+                                   <span></span>
+                               </div>
+                           </div>
+                             <div class="col-sm-6">
+                               <div class="fun-fact-item style-3">
+                                   <h3>BOOTSTRAP</h3>
+                                   <span></span>
+                               </div>
+                           </div>
+                             <div class="col-sm-6">
+                               <div class="fun-fact-item style-4">
+                                   <h3>JAVASCRIPT</h3>
+                                   <span></span>
+                               </div>
+                           </div>
+                       </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!-- Pro Section End -->
 
-/*
- *---------------------------------------------------------------
- * APPLICATION ENVIRONMENT
- *---------------------------------------------------------------
- *
- * You can load different configurations depending on your
- * current environment. Setting the environment also influences
- * things like logging and error reporting.
- *
- * This can be set to anything, but default usage is:
- *
- *     development
- *     testing
- *     production
- *
- * NOTE: If you change these, also change the error_reporting() code below
- */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 
-/*
- *---------------------------------------------------------------
- * ERROR REPORTING
- *---------------------------------------------------------------
- *
- * Different environments will require different levels of error reporting.
- * By default development will show errors but testing and live will hide them.
- */
-switch (ENVIRONMENT)
-{
-	case 'development':
-		error_reporting(-1);
-		ini_set('display_errors', 1);
-	break;
+<!-- App Screenshots Start -->
 
-	case 'testing':
-	case 'production':
-		ini_set('display_errors', 0);
-		if (version_compare(PHP_VERSION, '5.3', '>='))
-		{
-			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
-		}
-		else
-		{
-			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
-		}
-	break;
+<section class="app-screenshots section-padding" data-scroll-index="4" id="screenshots">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title">
+                    <h2>App <span>Screenshoots</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="owl-carousel screenshots-carousel">
+                <div class="screenshot-item">
+                    <img src="images/deutsch.png" alt="Img App">
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/francais.png" alt="Img App">
+                </div>
+                <div class="screenshot-item">
+                    <img src="images/englisch.png" alt="Img App">
+                </div>
+                <div class="screenshot-item">
+                        <img src="images/deutsch.png" alt="Img App">
+                </div>
+                <div class="screenshot-item">
+                        <img src="images/francais.png" alt="Img App">
+                </div>
+                <div class="screenshot-item">
+                        <img src="images/englisch.png" alt="Img App">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
 
-	default:
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'The application environment is not set correctly.';
-		exit(1); // EXIT_ERROR
-}
+<!-- App Screenshots End -->
+<!-- App Download Start -->
 
-/*
- *---------------------------------------------------------------
- * SYSTEM DIRECTORY NAME
- *---------------------------------------------------------------
- *
- * This variable must contain the name of your "system" directory.
- * Set the path if it is not in the same directory as this file.
- */
-	$system_path = 'system';
+<section class="app-download section-padding" data-scroll-index="5" id="herunterladen">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title">
+                    <h2> App <span>herunterladen</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="app-download-item">
+                    <i class="fab fa-github"></i>
+                    <h3> GitHub </h3>
+                    <p>Ihr könnt unsere Applikation auf Githab ganz einfach herunterladen, in der App findet das ganze Projekt : [ AndroidApp - PhpAppDynamisch - PhpAppStatisch + JavaScriptApp ]  </p>
+                    <a href="#" class="btn btn-2">Herunterladen</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="app-download-item">
+                    <i class="fab fa-windows"></i>
+                    <h3> Windows -Zip- </h3>
+                    <p>Für Windows Benutzer , die unsere Applikation & Beispiele direkt hier herunterladen möchten , können sie gerne auf dem Link daunten .</p>
+                    <a href="#" class="btn btn-2">Herunterladen</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="app-download-item">
+                    <i class="fab fa-linux"></i>
+                    <h3> Linux </h3>
+                    <p>Für Linux Benutzer ,Ihr könnt die Applikation mit den Beispiele einfach auf dem Link herunterladen. </p>
+                    <a href="#" class="btn btn-2">Herunterladen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>>
 
-/*
- *---------------------------------------------------------------
- * APPLICATION DIRECTORY NAME
- *---------------------------------------------------------------
- *
- * If you want this front controller to use a different "application"
- * directory than the default one you can set its name here. The directory
- * can also be renamed or relocated anywhere on your server. If you do,
- * use an absolute (full) server path.
- * For more info please see the user guide:
- *
- * https://codeigniter.com/user_guide/general/managing_apps.html
- *
- * NO TRAILING SLASH!
- */
-	$application_folder = 'application';
+<!-- App Download End -->
+<!-- How It works Start -->
+<section class="how-it-works section-padding" data-scroll-index="6" id="funktinalitaet">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title">
+                   <h2>Wie <span>funktioniert</span></h2> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="how-it-works-item line-right">
+                    <div class="step">1</div>
+                    <h3>Herunterladen</h3>
+                    <p>Zuerst musst ihr das Projekt auf dem Link daoben herunterladen oder einfach hier drücken .</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="how-it-works-item line-right">
+                    <div class="step">2</div>
+                    <h3>Verzeichnis auswählen</h3>
+                    <p>Wie ihr sieht , wir haben mehrere Applikation im Projekt . Ihr müsst euch entscheiden,was für eine Applikationart ihr die Mehrsprachigkeit umsetzten möchten [ Mobile - Web ].</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="how-it-works-item line-right">
+                    <div class="step">3</div>
+                    <h3>Projekt Öffnen</h3>
+                    <p>Projekt öffnen mit einem passenden IDE .</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="how-it-works-item">
+                    <div class="step">4</div>
+                    <h3>Code Kopieren</h3>
+                    <p>Jetzt könnt ihr den Code einfach kopieren und in eure Apps hinzüfugen und dann die in anderen Sprachen die eure Anwendungen übersetzten. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-/*
- *---------------------------------------------------------------
- * VIEW DIRECTORY NAME
- *---------------------------------------------------------------
- *
- * If you want to move the view directory out of the application
- * directory, set the path to it here. The directory can be renamed
- * and relocated anywhere on your server. If blank, it will default
- * to the standard location inside your application directory.
- * If you do move this, use an absolute (full) server path.
- *
- * NO TRAILING SLASH!
- */
-	$view_folder = '';
-
-
-/*
- * --------------------------------------------------------------------
- * DEFAULT CONTROLLER
- * --------------------------------------------------------------------
- *
- * Normally you will set your default controller in the routes.php file.
- * You can, however, force a custom routing by hard-coding a
- * specific controller class/function here. For most applications, you
- * WILL NOT set your routing here, but it's an option for those
- * special instances where you might want to override the standard
- * routing in a specific front controller that shares a common CI installation.
- *
- * IMPORTANT: If you set the routing here, NO OTHER controller will be
- * callable. In essence, this preference limits your application to ONE
- * specific controller. Leave the function name blank if you need
- * to call functions dynamically via the URI.
- *
- * Un-comment the $routing array below to use this feature
- */
-	// The directory name, relative to the "controllers" directory.  Leave blank
-	// if your controller is not in a sub-directory within the "controllers" one
-	// $routing['directory'] = '';
-
-	// The controller class file name.  Example:  mycontroller
-	// $routing['controller'] = '';
-
-	// The controller function you wish to be called.
-	// $routing['function']	= '';
-
-
-/*
- * -------------------------------------------------------------------
- *  CUSTOM CONFIG VALUES
- * -------------------------------------------------------------------
- *
- * The $assign_to_config array below will be passed dynamically to the
- * config class when initialized. This allows you to set custom config
- * items or override any default config values found in the config.php file.
- * This can be handy as it permits you to share one application between
- * multiple front controller files, with each file containing different
- * config values.
- *
- * Un-comment the $assign_to_config array below to use this feature
- */
-	// $assign_to_config['name_of_config_item'] = 'value of config item';
+<!-- How It works Section END -->
 
 
+<!-- Testimonials Section Start -->
 
-// --------------------------------------------------------------------
-// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
-// --------------------------------------------------------------------
+<!-- Testimonials End -->
 
-/*
- * ---------------------------------------------------------------
- *  Resolve the system path for increased reliability
- * ---------------------------------------------------------------
- */
+<!-- Team Section Start -->
 
-	// Set the current directory correctly for CLI requests
-	if (defined('STDIN'))
-	{
-		chdir(dirname(__FILE__));
-	}
+<section class="team section-padding" id="team">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title">
+                    <h2>Team <span>Member</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="owl-carousel team-carousel">
+                <div class="team-item">
+                    <img src="images/test.JPG" alt="Team">
+                    <h3>Issam Charef</h3>
+                    <span>Informatik Student</span>
+                </div>
+                <div class="team-item">
+                    <img src="images/11.jpeg" alt="Team">
+                    <h3>Leon Etienne</h3>
+                    <span>Informatik Student(Dual)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-	if (($_temp = realpath($system_path)) !== FALSE)
-	{
-		$system_path = $_temp.DIRECTORY_SEPARATOR;
-	}
-	else
-	{
-		// Ensure there's a trailing slash
-		$system_path = strtr(
-			rtrim($system_path, '/\\'),
-			'/\\',
-			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-		).DIRECTORY_SEPARATOR;
-	}
+<!-- Team Section End -->
 
-	// Is the system path correct?
-	if ( ! is_dir($system_path))
-	{
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
-		exit(3); // EXIT_CONFIG
-	}
+<!-- Video Popup Start -->
 
-/*
- * -------------------------------------------------------------------
- *  Now that we know the path, set the main path constants
- * -------------------------------------------------------------------
- */
-	// The name of THIS file
-	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+<div class="video-popup">
+    <div class="video-popup-inner">
+        <i class="fas fa-times video-popup-close"></i>
+        <div class="iframe-box">
+            <iframe id="player-1" src="https://www.youtube.com/embed/ZbZSe6N_BXs" 
+                    title="YouTube video player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
 
-	// Path to the system directory
-	define('BASEPATH', $system_path);
 
-	// Path to the front controller (this file) directory
-	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
 
-	// Name of the "system" directory
-	define('SYSDIR', basename(BASEPATH));
-
-	// The path to the "application" directory
-	if (is_dir($application_folder))
-	{
-		if (($_temp = realpath($application_folder)) !== FALSE)
-		{
-			$application_folder = $_temp;
-		}
-		else
-		{
-			$application_folder = strtr(
-				rtrim($application_folder, '/\\'),
-				'/\\',
-				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-			);
-		}
-	}
-	elseif (is_dir(BASEPATH.$application_folder.DIRECTORY_SEPARATOR))
-	{
-		$application_folder = BASEPATH.strtr(
-			trim($application_folder, '/\\'),
-			'/\\',
-			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-		);
-	}
-	else
-	{
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
-		exit(3); // EXIT_CONFIG
-	}
-
-	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
-
-	// The path to the "views" directory
-	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
-	{
-		$view_folder = APPPATH.'views';
-	}
-	elseif (is_dir($view_folder))
-	{
-		if (($_temp = realpath($view_folder)) !== FALSE)
-		{
-			$view_folder = $_temp;
-		}
-		else
-		{
-			$view_folder = strtr(
-				rtrim($view_folder, '/\\'),
-				'/\\',
-				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-			);
-		}
-	}
-	elseif (is_dir(APPPATH.$view_folder.DIRECTORY_SEPARATOR))
-	{
-		$view_folder = APPPATH.strtr(
-			trim($view_folder, '/\\'),
-			'/\\',
-			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
-		);
-	}
-	else
-	{
-		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
-		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
-		exit(3); // EXIT_CONFIG
-	}
-
-	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
-
-/*
- * --------------------------------------------------------------------
- * LOAD THE BOOTSTRAP FILE
- * --------------------------------------------------------------------
- *
- * And away we go...
- */
-require_once BASEPATH.'core/CodeIgniter.php';
+<!-- Video Popup End -->
+<?php include('./footer.php'); ?>
