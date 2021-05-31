@@ -1,5 +1,8 @@
 
-
+<?php
+    // Shortcut
+    $local_sctnFoot = $local["footer"];
+?>
 
     <!-- Footer Start  -->
     <section class="footer">
@@ -7,8 +10,8 @@
             <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-col">
-                            <h3>Über uns</h3>
-                            <p>Wir sind 2 Informatik an der Hochschule Worms . Dieses Projekt wird für alle Studierenden zur Verfügung gestellt um in der Mehrsprachigkeit einzusteigen. </p>
+                            <h3><?php echo($local_sctnFoot["about"]["title"]); ?></h3>
+                            <p><?php echo($local_sctnFoot["about"]["text"]); ?></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -22,25 +25,26 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-col">
-                            <h3>Schnelllinks</h3>
+                            <h3><?php echo($local_sctnFoot["quicklinks"]["title"]); ?></h3>
                             <ul>
-                                <li><a href="#einfuehrung">Einführung</a></li>
-                                <li><a href="#beispiele">Beispiele</a></li>
-                                <li><a href="#projekt">Projekt</a></li>
-                                <li><a href="#screenshots">Screenshots</a></li>
-                                <li><a href="#herunterladen">App herunterladen</a></li>
-                                <li><a href="#funktinalitaet">Funktionalität</a></li>
-                                <li><a href="#team">Team</a></li>
+                                <?php $local_navEntr = $local["head"]["navbar"]["items"]; ?>
+
+                                <li><a href="#einfuehrung"><?php echo($local_navEntr["home"]) ?></a></li>
+                                <li><a href="#beispiele"><?php echo($local_navEntr["intro"]) ?></a></li>
+                                <li><a href="#projekt"><?php echo($local_navEntr["examples"]) ?></a></li>
+                                <li><a href="#screenshots"><?php echo($local_navEntr["screenshots"]) ?></a></li>
+                                <li><a href="#herunterladen"><?php echo($local_navEntr["download"]) ?></a></li>
+                                <li><a href="#funktinalitaet"><?php echo($local_navEntr["functionality"]) ?></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-col">
-                            <h3>Betreuer</h3>
+                            <h3><?php echo($local_sctnFoot["jury"]["title"]); ?></h3>
                             <ul>
-                                <li><a href="#">Prog. Graph Oberflächen</a></li>
-                                <li><a href="#">Prof. Dr. Werner König</a></li>
-                                <li><a href="#">HS Worms</a></li>
+                                <?php foreach ($local_sctnFoot["jury"]["jurors"] as $juror): ?>
+                                    <li><?php echo($juror); ?></li>
+                                <?php endforeach; ?>
                             </ul>
                         </div>
                     </div>

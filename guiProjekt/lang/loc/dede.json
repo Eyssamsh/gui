@@ -75,5 +75,23 @@
                 "dainf": "Student der angewandten Informatik im Praxisverbund"
             }
         }
+    },
+
+    "footer": {
+        "about": {
+            "title": "Über uns",
+            "text": "Wir sind 2 Informatik an der Hochschule Worms . Dieses Projekt wird für alle Studierenden zur Verfügung gestellt um in der Mehrsprachigkeit einzusteigen."
+        },
+        "quicklinks": {
+            "title": "Schnelllinks"
+        },
+        "jury": {
+            "title": "Betreuer",
+            "jurors": [
+                "Prog. Graph Oberflächen",
+                "Prof. Dr. Werner König",
+                "HS Worms"
+            ]
+        }
     }
 }
