@@ -762,6 +762,8 @@ ul{
     padding: 30px;
     border-radius: 15px;
     box-shadow: var(--shadow-black-100);
+    height: 650px;
+    width: 450px;
 }
 .team-item h3{
     font-size: 18px;
@@ -777,8 +779,11 @@ ul{
     color: var(--black-400);
     text-transform: capitalize;
 }
-.team-item img{
-    height: 450px;
+.team-item .img {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
 }
 /* ------------- Faq Section -------- */
 

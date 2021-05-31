@@ -16,12 +16,12 @@
         <div class="row justify-content-center">
             <div class="owl-carousel team-carousel">
                 <div class="team-item">
-                    <img src="images/test.JPG" alt="Team">
+                    <div class="img" style="background-image: url('images/test.JPG')"> </div>
                     <h3>Issam Charef</h3>
                     <span><?php echo($local_sctnTeam["labels"]["ainf"]); ?></span>
                 </div>
                 <div class="team-item">
-                    <img src="images/11.jpeg" alt="Team">
+                    <div class="img" style="background-image: url('images/11.jpeg')"> </div>
                     <h3>Leon Etienne</h3>
                     <span><?php echo($local_sctnTeam["labels"]["dainf"]); ?></span>
                 </div>
