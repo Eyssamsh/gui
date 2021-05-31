@@ -68,6 +68,42 @@
             "title": "Mehr<span>sprachigkeit</span>",
             "description": "Diese Webseite wurde als Projekt für Prog.Graph Oberflächen bei Herr König entwickelt um die Studiereden zu helfen,<br>wie man eine Applikation mit meherern Sprachen entwicklen kann.<br>Hier kann man sehen,was wir alles für diese Applikation benutzt haben."
         },
+        "downloads": {
+            "title": "App <span>herunterladen</span>",
+            "github": {
+                "title": "GitHub",
+                "description": ""
+            },
+            "winzip": {
+                "title": "Windows-Zip",
+                "description": ""
+            },
+            "linux": {
+                "title": "Linux",
+                "description": ""
+            }
+        },
+        "functionality": {
+            "title": "Wie <span>funktionierts?</span>",
+            "steps": {
+                "1": {
+                    "title": "Herunterladen",
+                    "description": "Zuerst musst ihr das Projekt auf dem Link daoben herunterladen oder einfach hier drücken."
+                },
+                "2": {
+                    "title": "Verzeichnis auswählen",
+                    "description": "Wie ihr sieht, wir haben mehrere Applikation im Projekt . Ihr müsst euch entscheiden,was für eine Applikationart ihr die Mehrsprachigkeit umsetzten möchten [ Mobile - Web ]."
+                },
+                "3": {
+                    "title": "Projekt öffnen",
+                    "description": "Projekt öffnen mit einem passenden IDE."
+                },
+                "4": {
+                    "title": "Code kopieren",
+                    "description": "Jetzt könnt ihr den Code einfach kopieren und in eure Apps hinzüfugen und dann die in anderen Sprachen die eure Anwendungen übersetzten."
+                }
+            }
+        },
         "team": {
             "title": "Team<span>mitglieder</span>",
             "labels": {

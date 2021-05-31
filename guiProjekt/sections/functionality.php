@@ -1,9 +1,15 @@
+
+<?php
+    // Shortcut
+    $local_sctnFunc = $local["body"]["functionality"];
+?>
+
 <section class="how-it-works section-padding" data-scroll-index="6" id="funktinalitaet">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title">
-                   <h2>Wie <span>funktioniert</span></h2> 
+                   <h2><?php echo($local_sctnFunc["title"]); ?></span></h2> 
                 </div>
             </div>
         </div>
@@ -11,29 +17,29 @@
             <div class="col-lg-3 col-md-6">
                 <div class="how-it-works-item line-right">
                     <div class="step">1</div>
-                    <h3>Herunterladen</h3>
-                    <p>Zuerst musst ihr das Projekt auf dem Link daoben herunterladen oder einfach hier drücken .</p>
+                    <h3><?php echo($local_sctnFunc["steps"]["1"]["title"]); ?></h3>
+                    <p><?php echo($local_sctnFunc["steps"]["1"]["description"]); ?></p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="how-it-works-item line-right">
                     <div class="step">2</div>
-                    <h3>Verzeichnis auswählen</h3>
-                    <p>Wie ihr sieht , wir haben mehrere Applikation im Projekt . Ihr müsst euch entscheiden,was für eine Applikationart ihr die Mehrsprachigkeit umsetzten möchten [ Mobile - Web ].</p>
+                    <h3><?php echo($local_sctnFunc["steps"]["2"]["title"]); ?></h3>
+                    <p><?php echo($local_sctnFunc["steps"]["2"]["description"]); ?></p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="how-it-works-item line-right">
                     <div class="step">3</div>
-                    <h3>Projekt Öffnen</h3>
-                    <p>Projekt öffnen mit einem passenden IDE .</p>
+                    <h3><?php echo($local_sctnFunc["steps"]["3"]["title"]); ?></h3>
+                    <p><?php echo($local_sctnFunc["steps"]["3"]["description"]); ?></p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="how-it-works-item">
                     <div class="step">4</div>
-                    <h3>Code Kopieren</h3>
-                    <p>Jetzt könnt ihr den Code einfach kopieren und in eure Apps hinzüfugen und dann die in anderen Sprachen die eure Anwendungen übersetzten. </p>
+                    <h3><?php echo($local_sctnFunc["steps"]["4"]["title"]); ?></h3>
+                    <p><?php echo($local_sctnFunc["steps"]["4"]["description"]); ?></p>
                 </div>
             </div>
         </div>
