@@ -604,6 +604,9 @@ ul{
 .app-download .section-title h2{
     color: #ffffff;
 }
+.app-download .section-title h2 span {
+    background-color: #ffffffaa;
+}
 .app-download::before{
     content: '';
     position: absolute;
@@ -611,10 +614,9 @@ ul{
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -1; 
     background-color: var(--main-to-dark-color);
     opacity: 0.8;
-    
 }
 
 .app-download-item{
