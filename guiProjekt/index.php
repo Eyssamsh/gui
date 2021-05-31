@@ -1,7 +1,8 @@
 <?php include('./header.php'); ?>
 
 <?php
-    $local_sctn = $local["body"]["home"];
+    // Shortcut
+    $local_sctnHome = $local["body"]["home"];
 ?>
 
 <!-- Home Section Start -->
@@ -15,8 +16,8 @@
             <div class="row align-items-center">
                 <div class="col-md-7">
                     <div class="home-text">
-                        <h1><?php echo($local_sctn["title"]); ?></h1>
-                        <p><?php echo($local_sctn["description"]); ?></p>
+                        <h1><?php echo($local_sctnHome["title"]); ?></h1>
+                        <p><?php echo($local_sctnHome["description"]); ?></p>
                         <div class="home-btn">
                             <a href="#"  data-scroll-goto="5"  class="btn btn-1"><?php echo($local_sctn["buttonText"]); ?></a>
                             <button type="button" class="btn btn-1 video-play-btn" >
