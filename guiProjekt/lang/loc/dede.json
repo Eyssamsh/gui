@@ -1,0 +1,18 @@
+{
+    "head": {
+        "title": "::.. Mehrsprachigkeit Projekt ..::",
+
+        "navbar": {
+            "title": "Mehrsprachigkeit",
+            "items": {
+                "home": "Home",
+                "intro": "Einführung",
+                "examples": "Beispiele",
+                "project": "Project",
+                "screenshots": "Screenshots",
+                "download": "Herunterladen",
+                "functionality": "Funktionalität"
+            }
+        }
+    }
+}
