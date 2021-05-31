@@ -67,6 +67,13 @@
         "project": {
             "title": "Mehr<span>sprachigkeit</span>",
             "description": "Diese Webseite wurde als Projekt für Prog.Graph Oberflächen bei Herr König entwickelt um die Studiereden zu helfen,<br>wie man eine Applikation mit meherern Sprachen entwicklen kann.<br>Hier kann man sehen,was wir alles für diese Applikation benutzt haben."
+        },
+        "team": {
+            "title": "Team<span>mitglieder</span>",
+            "labels": {
+                "ainf": "Student der angewandten Informatik",
+                "dainf": "Student der angewandten Informatik im Praxisverbund"
+            }
         }
     }
 }
