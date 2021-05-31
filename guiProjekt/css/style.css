@@ -554,19 +554,11 @@ ul{
     margin-top : 30px;
 }
 .fun-fact-item h3{
+    text-transform: uppercase;
     font-size: 25px;
     font-weight: 700;
     color: #ffffff;
     margin: 0 0 5px;
-}
-.fun-fact-item span{
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin: 0;
-    line-height: 26px;
-    display: block;
-    color: #ffffff;
 }
 .fun-fact-item.style-1{
     background-color : var(--color-1);
