@@ -1,0 +1,97 @@
+{
+    "head": {
+        "title": "::.. Mehrsprachigkeit Projekt ..::",
+
+        "navbar": {
+            "title": "Mehrsprachigkeit",
+            "items": {
+                "home": "Home",
+                "intro": "Einführung",
+                "examples": "Beispiele",
+                "project": "Project",
+                "screenshots": "Screenshots",
+                "download": "Herunterladen",
+                "functionality": "Funktionalität"
+            }
+        }
+    },
+
+    "body": {
+        "home": {
+            "title": "Prog. Graph Oberflächen",
+            "description": "Auf dieser Webseite geht es um Mehrsprachigkeit. Wir werden euch erklären , wie man eine Applikation mit mehr Sprachen umsetzten kann.",
+            "buttonText": "Code Source Herunterladen"
+        },
+        "faq": {
+            "title": "Introduction <span>Mehrsprachigkeit</span>",
+            "questions": [
+                {
+                    "title": "Definition",
+                    "answer": "1Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore."
+                },
+                {
+                    "title": "Wie kann ich mehr als eine Sprache in meiner Appl umsetzten ?",
+                    "answer": "2Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore."
+                },
+                {
+                    "title": "Vorteile",
+                    "answer": "3Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore."
+                },
+                {
+                    "title": "Nachteile",
+                    "answer": "4Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore."
+                }
+            ]
+        },
+        "examples": {
+            "title": "Einfache <span>Beispiele</span>",
+            "featureItems": {
+                "android": {
+                    "title": "Android App",
+                    "description": "Wir haben für euch ein kleines einfaches komplettes Android App , die könnt ihr herunterladen und das Porjekt einfach offnen und weiter arbeiten."
+                },
+                "php_stat": {
+                    "title": "Php - Statisch",
+                    "description": "Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann. Was hier mit statisch und dynamisch gemeient ist , könnt gerne in unsere Ausarbeitung nachschauen."
+                },
+                "php_dyn": {
+                    "title": "Php - Dynamisch",
+                    "description": "Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann."
+                },
+                "js_stat": {
+                    "title": "JavaScript - Dynamisch",
+                    "description": "Diese Webseite wurde mit Javascript entwickelt , die wurden wir auch zur Verfügung stellen."
+                }
+            }
+        },
+        "project": {
+            "title": "Mehr<span>sprachigkeit</span>",
+            "description": "Diese Webseite wurde als Projekt für Prog.Graph Oberflächen bei Herr König entwickelt um die Studiereden zu helfen,<br>wie man eine Applikation mit meherern Sprachen entwicklen kann.<br>Hier kann man sehen,was wir alles für diese Applikation benutzt haben."
+        },
+        "team": {
+            "title": "Team<span>mitglieder</span>",
+            "labels": {
+                "ainf": "Student der angewandten Informatik",
+                "dainf": "Student der angewandten Informatik im Praxisverbund"
+            }
+        }
+    },
+
+    "footer": {
+        "about": {
+            "title": "Über uns",
+            "text": "Wir sind 2 Informatik an der Hochschule Worms . Dieses Projekt wird für alle Studierenden zur Verfügung gestellt um in der Mehrsprachigkeit einzusteigen."
+        },
+        "quicklinks": {
+            "title": "Schnelllinks"
+        },
+        "jury": {
+            "title": "Betreuer",
+            "jurors": [
+                "Prog. Graph Oberflächen",
+                "Prof. Dr. Werner König",
+                "HS Worms"
+            ]
+        }
+    }
+}
