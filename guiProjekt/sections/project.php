@@ -1,3 +1,9 @@
+
+<?php
+    // Shortcut
+    $local_sctnProj = $local["body"]["project"];
+?>
+
 <section class="fun-facts section-padding" data-scroll-index="3" id="projekt">
     <div class="container">
         <div class="row">
@@ -8,38 +14,32 @@
             </div>
             <div class="col-lg-6 col-md-7">
                 <div class="section-title">
-                    <h2>Mehr<span>sprachigkeit</span></h2>
+                    <h2><?php echo($local_sctnProj["title"]); ?></h2>
                 </div>
                 <div class="fun-facts-text">
-                       <p> Diese Webseite wurde als Projekt für Prog.Graph Oberflächen bei Herr König entwickelt um die Studiereden zu helfen, 
-                           wie man eine Applikation mit meherern Sprachen entwicklen kann.
-                           Hier kann man sehen,was wir alles für diese Applikation benutzt haben.
-                        
+                       <p>
+                            <?php echo($local_sctnProj["description"]); ?>
                        </p>
                        
                        <div class="row">
                            <div class="col-sm-6">
                                <div class="fun-fact-item style-1">
-                                   <h3>HTML</h3>
-                                   <span></span>
+                                   <h3>html</h3>
                                </div>
                            </div>
                              <div class="col-sm-6">
                                <div class="fun-fact-item style-2">
-                                   <h3>CSS3</h3>
-                                   <span></span>
+                                   <h3>css3</h3>
                                </div>
                            </div>
                              <div class="col-sm-6">
                                <div class="fun-fact-item style-3">
-                                   <h3>BOOTSTRAP</h3>
-                                   <span></span>
+                                   <h3>Bootstrap</h3>
                                </div>
                            </div>
                              <div class="col-sm-6">
                                <div class="fun-fact-item style-4">
-                                   <h3>JAVASCRIPT</h3>
-                                   <span></span>
+                                   <h3>JavaScript</h3>
                                </div>
                            </div>
                        </div>

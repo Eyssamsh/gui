@@ -63,6 +63,10 @@
                     "description": "Diese Webseite wurde mit Javascript entwickelt , die wurden wir auch zur Verfügung stellen."
                 }
             }
+        },
+        "project": {
+            "title": "Mehr<span>sprachigkeit</span>",
+            "description": "Diese Webseite wurde als Projekt für Prog.Graph Oberflächen bei Herr König entwickelt um die Studiereden zu helfen,<br>wie man eine Applikation mit meherern Sprachen entwicklen kann.<br>Hier kann man sehen,was wir alles für diese Applikation benutzt haben."
         }
     }
 }
