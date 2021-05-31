@@ -1,4 +1,9 @@
 <?php include('./header.php'); ?>
+
+<?php
+    $local_sctn = $local["body"]["home"];
+?>
+
 <!-- Home Section Start -->
 <section class="home d-flex align-items-center" data-scroll-index="0" >
     <div class="effect-wrap">
@@ -10,10 +15,10 @@
             <div class="row align-items-center">
                 <div class="col-md-7">
                     <div class="home-text">
-                        <h1>Prog. Graph Oberflächen</h1>
-                        <p>Auf dieser Webseite geht es um Mehrsprachigkeit. Wir werden euch erklären , wie man eine Applikation mit mehr Sprachen umsetzten kann. </p>
+                        <h1><?php echo($local_sctn["title"]); ?></h1>
+                        <p><?php echo($local_sctn["description"]); ?></p>
                         <div class="home-btn">
-                            <a href="#"  data-scroll-goto="5"  class="btn btn-1">Code Source Herunterladen</a>
+                            <a href="#"  data-scroll-goto="5"  class="btn btn-1"><?php echo($local_sctn["buttonText"]); ?></a>
                             <button type="button" class="btn btn-1 video-play-btn" >
                                 <i class="fas fa-play"></i>
                             </button>
