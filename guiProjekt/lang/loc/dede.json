@@ -42,6 +42,27 @@
                     "answer": "4Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br>tempor invidunt ut labore."
                 }
             ]
+        },
+        "examples": {
+            "title": "Einfache <span>Beispiele</span>",
+            "featureItems": {
+                "android": {
+                    "title": "Android App",
+                    "description": "Wir haben für euch ein kleines einfaches komplettes Android App , die könnt ihr herunterladen und das Porjekt einfach offnen und weiter arbeiten."
+                },
+                "php_stat": {
+                    "title": "Php - Statisch",
+                    "description": "Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann. Was hier mit statisch und dynamisch gemeient ist , könnt gerne in unsere Ausarbeitung nachschauen."
+                },
+                "php_dyn": {
+                    "title": "Php - Dynamisch",
+                    "description": "Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann."
+                },
+                "js_stat": {
+                    "title": "JavaScript - Dynamisch",
+                    "description": "Diese Webseite wurde mit Javascript entwickelt , die wurden wir auch zur Verfügung stellen."
+                }
+            }
         }
     }
 }
