@@ -89,19 +89,19 @@
             "steps": {
                 "1": {
                     "title": "Herunterladen",
-                    "description": "Zuerst musst ihr das Projekt auf dem Link daoben herunterladen oder einfach hier drücken."
+                    "description": "Zuerst musst ihr das Projekt auf dem obigen Link herunterladen."
                 },
                 "2": {
                     "title": "Verzeichnis auswählen",
-                    "description": "Wie ihr sieht, wir haben mehrere Applikation im Projekt . Ihr müsst euch entscheiden,was für eine Applikationart ihr die Mehrsprachigkeit umsetzten möchten [ Mobile - Web ]."
+                    "description": "Wie ihr sieht, wir haben mehrere Applikation im Projekt. Ihr müsst euch für eine Applikations-Plattform entscheiden."
                 },
                 "3": {
-                    "title": "Projekt öffnen",
-                    "description": "Projekt öffnen mit einem passenden IDE."
+                    "title": "Code kopieren",
+                    "description": "Jetzt könnt ihr den Code einfach kopieren und in eure Apps hinzüfugen."
                 },
                 "4": {
-                    "title": "Code kopieren",
-                    "description": "Jetzt könnt ihr den Code einfach kopieren und in eure Apps hinzüfugen und dann die in anderen Sprachen die eure Anwendungen übersetzten."
+                    "title": "Probleme?",
+                    "description": "Bei Schwierigkeiten hilft euch ein Blick in die <a href='' target='_blank'>schriftliche Ausarbeitung</a>."
                 }
             }
         },
@@ -117,7 +117,7 @@
     "footer": {
         "about": {
             "title": "Über uns",
-            "text": "Wir sind 2 Informatik an der Hochschule Worms . Dieses Projekt wird für alle Studierenden zur Verfügung gestellt um in der Mehrsprachigkeit einzusteigen."
+            "text": "Wir sind zwei Informatikstudenten an der Hochschule Worms. Dieses Projekt wird für alle Studierenden zur Verfügung gestellt, um erste Einblicke in Mehrsprachigkeit in der Informatik zu bekommen."
         },
         "quicklinks": {
             "title": "Schnelllinks"
