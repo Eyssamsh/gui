@@ -520,7 +520,7 @@ ul{
     margin: 0 0 15px;
 }
 
-/* ------------- Fun Facs Section -------- */
+/* ------------- Fun Facs Section / project -------- */
 .fun-facts{
     background-color: var(--black-100);
     
@@ -531,6 +531,15 @@ ul{
 .fun-facts .section-title h2{
     text-align: left;
     
+}
+.fun-facts a {
+    text-decoration: none;
+}
+.fun-facts .tech-button {
+    transition: transform 0.15s;
+}
+.fun-facts .tech-button:hover {
+    transform: scale(1.025);
 }
 .fun-facts-img img{
     max-width: 250px;

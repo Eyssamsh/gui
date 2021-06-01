@@ -22,25 +22,33 @@
                        </p>
                        
                        <div class="row">
-                           <div class="col-sm-6">
-                               <div class="fun-fact-item style-1">
-                                   <h3>html</h3>
-                               </div>
+                           <div class="col-sm-6 tech-button">
+                            <a href="https://html.spec.whatwg.org/" target="_blank">
+                                <div class="fun-fact-item style-1">
+                                    <h3>html5</h3>
+                                </div>
+                            </a>
                            </div>
-                             <div class="col-sm-6">
+                           <div class="col-sm-6 tech-button">
+                            <a href="https://www.w3schools.com/css/" target="_blank">
                                <div class="fun-fact-item style-2">
                                    <h3>css3</h3>
                                </div>
+                               </a>
                            </div>
-                             <div class="col-sm-6">
+                             <div class="col-sm-6 tech-button">
+                             <a href="https://getbootstrap.com/" target="_blank">
                                <div class="fun-fact-item style-3">
                                    <h3>Bootstrap</h3>
                                </div>
+                               </a>
                            </div>
-                             <div class="col-sm-6">
+                             <div class="col-sm-6 tech-button">
+                             <a href="https://www.php.net/" target="_blank">
                                <div class="fun-fact-item style-4">
-                                   <h3>JavaScript</h3>
+                                   <h3>PHP</h3>
                                </div>
+                               </a>
                            </div>
                        </div>
                     
