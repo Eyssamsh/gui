@@ -1031,10 +1031,6 @@ ul{
         font-size: 40px;
         
     }
-    .how-it-works-item,
-    .app-download-item {
-        margin-bottom: 30px;
-    }
     .how-it-works-item.line-right::before{
         content: none;
     }
