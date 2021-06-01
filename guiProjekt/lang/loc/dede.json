@@ -69,18 +69,19 @@
             "description": "Diese Webseite wurde als Prüfleistung für den Kurs 505 - Programmieren Graphischer Oberflächen unter Führung durch Herrn Professor Dr. König entwickelt, um der gesamten Komilitonenschaft des Kursmodules die Grundlagen der Mehrsprachigkeit in der Informatik nahe zu bringen."
         },
         "downloads": {
-            "title": "App <span>herunterladen</span>",
+            "title": "Beispiele <span>herunterladen</span>",
+            "button-text": "Herunterladen",
             "github": {
                 "title": "GitHub",
-                "description": ""
+                "description": "Wir haben sämtliche Demonstrationen auf Github veröffentlicht. Diese sind unter dem unten aufgeführten Link erreichbar."
             },
             "winzip": {
-                "title": "Windows-Zip",
-                "description": ""
+                "title": "Zip-Datei",
+                "description": "Wer sich nicht mit Github auseinandersetzen möchte, kann diesen direkten Link zu einer Zip-Datei nutzen."
             },
             "linux": {
                 "title": "Linux",
-                "description": ""
+                "description": "Wer lieber die Vorzüge von Tarballs genießen möchte, kann diesen direkten Hyperlink zur .tar Datei aufrufen."
             }
         },
         "functionality": {

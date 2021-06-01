@@ -14,28 +14,28 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-sm-3">
                 <div class="app-download-item">
                     <i class="fab fa-github"></i>
                     <h3><?php echo($local_sctnDown["github"]["title"]); ?></h3>
-                    <p>Ihr könnt unsere Applikation auf Githab ganz einfach herunterladen, in der App findet das ganze Projekt : [ AndroidApp - PhpAppDynamisch - PhpAppStatisch + JavaScriptApp ]  </p>
-                    <a href="#" class="btn btn-2">Herunterladen</a>
+                    <p><?php echo($local_sctnDown["github"]["description"]); ?></p>
+                    <a href="https://github.com/Eyssamsh/gui" target="_blank" class="btn btn-2"><?php echo($local_sctnDown["button-text"]); ?></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-sm-3 mb-0">
                 <div class="app-download-item">
                     <i class="fab fa-windows"></i>
                     <h3><?php echo($local_sctnDown["winzip"]["title"]); ?></h3>
-                    <p>Für Windows Benutzer , die unsere Applikation & Beispiele direkt hier herunterladen möchten , können sie gerne auf dem Link daunten .</p>
-                    <a href="#" class="btn btn-2">Herunterladen</a>
+                    <p><?php echo($local_sctnDown["winzip"]["description"]); ?></p>
+                    <a href="https://github.com/Eyssamsh/gui/archive/refs/heads/master.zip" class="btn btn-2"><?php echo($local_sctnDown["button-text"]); ?></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-sm-3 mb-0">
                 <div class="app-download-item">
                     <i class="fab fa-linux"></i>
                     <h3><?php echo($local_sctnDown["linux"]["title"]); ?></h3>
-                    <p>Für Linux Benutzer ,Ihr könnt die Applikation mit den Beispiele einfach auf dem Link herunterladen. </p>
-                    <a href="#" class="btn btn-2">Herunterladen</a>
+                    <p><?php echo($local_sctnDown["linux"]["description"]); ?></p>
+                    <a href="#" class="btn btn-2"><?php echo($local_sctnDown["button-text"]); ?></a>
                 </div>
             </div>
         </div>
