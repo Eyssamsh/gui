@@ -9,8 +9,10 @@
     <meta name="author" content="Issam CHAREF">
     <link rel="icon" type="image/png" href="images/favicon.png"/>
     <title> <?php echo($local["head"]["title"]) ?> </title>
+    <!-- Reset.css -->
+    <link href="css/reset.css" rel="stylesheet" >
     <!-- Owl Carousel -->
-     <link href="css/owl.carousel.min.css" rel="stylesheet" >
+    <link href="css/owl.carousel.min.css" rel="stylesheet" >
     <!-- Font Awesome Icons -->
     <link href="css/font-awesome.css" rel="stylesheet" >
 
