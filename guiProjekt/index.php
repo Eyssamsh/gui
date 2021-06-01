@@ -19,7 +19,7 @@
                         <h1><?php echo($local_sctnHome["title"]); ?></h1>
                         <p><?php echo($local_sctnHome["description"]); ?></p>
                         <div class="home-btn">
-                            <a href="#"  data-scroll-goto="5"  class="btn btn-1"><?php echo($local_sctn["buttonText"]); ?></a>
+                            <a href="#"  data-scroll-goto="5"  class="btn btn-1"><?php echo($local_sctnHome["buttonText"]); ?></a>
                             <button type="button" class="btn btn-1 video-play-btn" >
                                 <i class="fas fa-play"></i>
                             </button>
