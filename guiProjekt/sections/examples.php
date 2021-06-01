@@ -30,7 +30,7 @@
                     <p><?php echo($local_sctnExmp["featureItems"]["php_dyn"]["description"]); ?></p>
                 </div>
                 <div class="feature-item">
-                    <div class="icon"> <i class="fas fa-check"></i> </div>
+                    <div class="icon"> <i class="fas fa-code"></i> </div>
                     <h3><?php echo($local_sctnExmp["featureItems"]["js_stat"]["title"]); ?></h3>
                     <p><?php echo($local_sctnExmp["featureItems"]["js_stat"]["description"]); ?></p>
                 </div>

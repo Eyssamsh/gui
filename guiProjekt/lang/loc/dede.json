@@ -47,20 +47,20 @@
             "title": "Einfache <span>Beispiele</span>",
             "featureItems": {
                 "android": {
-                    "title": "Android App",
-                    "description": "Wir haben für euch ein kleines einfaches komplettes Android App , die könnt ihr herunterladen und das Porjekt einfach offnen und weiter arbeiten."
+                    "title": "Android",
+                    "description": "Wir haben für euch eine kleine, einfache, mehrsprachige Android Applikation entwickelt. Diese dient als Ausgangspunkt, der für beliebige Weiterentwicklungen genutzt werden kann."
+                },
+                "php_dyn": {
+                    "title": "Dynamisch",
+                    "description": "Bei diesem Example handelt es sich um ein MWE <sub>(minimal working example)</sub> einer dynamisch übersetzten Webseite. Diese wurde über den <a href='https://cloud.google.com/translate' target='_blank'>Cloud Translation</a>-Dienst von Google realisiert."
                 },
                 "php_stat": {
                     "title": "Php - Statisch",
-                    "description": "Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann. Was hier mit statisch und dynamisch gemeient ist , könnt gerne in unsere Ausarbeitung nachschauen."
-                },
-                "php_dyn": {
-                    "title": "Php - Dynamisch",
-                    "description": "Wir haben auch für euch ein einfaches Beispiel in der Php Sprache ,damit man in der Mehrsprachigkeit einsteigen kann."
+                    "description": "Dieser Webauftritt an sich dient als Example für die Umsetzung einer statischen Übersetzung in PHP."
                 },
                 "js_stat": {
-                    "title": "JavaScript - Dynamisch",
-                    "description": "Diese Webseite wurde mit Javascript entwickelt , die wurden wir auch zur Verfügung stellen."
+                    "title": "JavaScript - Statisch",
+                    "description": "Für JavaScript-Anhänger gibt es ebenfalls denselben statischen Ansatz, der ebenfalls in PHP umgesetzt wurde, in Form einer Platzhalter-Techdemo."
                 }
             }
         },
