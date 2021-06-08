@@ -1,0 +1,134 @@
+{
+    "head": {
+        "title": "Multilingualism - Leon Etienne | Issam Charef",
+
+        "navbar": {
+            "title": "Multilingualism",
+            "items": {
+                "home": "Home",
+                "intro": "Introduction",
+                "examples": "Examples",
+                "project": "Project",
+                "screenshots": "Screenshots",
+                "download": "Downloads",
+                "functionality": "Functionality"
+            }
+        }
+    },
+
+    "body": {
+        "home": {
+            "title": "Prog. Graphical user interfaces",
+            "description": "This website is about multilingualism. We will show you how you can create multilingual applications!",
+            "buttonText": "Sourcecode herunterladen"
+        },
+        "faq": {
+            "title": "Introduction <span>Multilingualism</span>",
+            "questions": [
+                {
+                    "title": "Definition",
+                    "answer": "Multilingualism is the ability of a human to process multiple languages.<br>In computer science, the definition is that an application is able to handle multiple different languages."
+                },
+                {
+                    "title": "Implementation",
+                    "answer": "Basically, there are many approaches to multilingualism. Each comes with their own special advan- and disadvantages. We explained when to use which method in our <a href='' target='_blank'>research paper</a> (German only)."
+                },
+                {
+                    "title": "Advantages of multilingualism",
+                    "answer": "A multilingual application has many advantages over unilinguar applications. These are, for example, reaching a much bigger, more diverse target audience.<br>Especially for big, international corporations is support for multiple languages a must have.<br>If you are using a content management system, like <a href='https://typo3.org/' target='_blank'>TYPO3</a> for example, implementing support for multiple languages is more often than not trivial."
+                },
+                {
+                    "title": "Disadvantages of multilingualism",
+                    "answer": "Implementing support for multiple languages is often very time consuming, and thus, very expensive. If the product is only intended for one, unilingual audience anyways, it might just not be worth the time, effort and money."
+                }
+            ]
+        },
+        "examples": {
+            "title": "Simple <span>examples</span>",
+            "featureItems": {
+                "android": {
+                    "title": "Android",
+                    "description": "We have developed a small, multilingual android app. This is meant as a template you can build upon when developing your own multingual app."
+                },
+                "php_dyn": {
+                    "title": "Dynamic",
+                    "description": "This is a minimal working example (MWE) of a dynamically translated website. This application is using the <a href='https://cloud.google.com/translate' target='_blank'>Cloud Translation</a> service of Google."
+                },
+                "php_stat": {
+                    "title": "Php - Static",
+                    "description": "This example represents a simple static translation implementation via language files in php."
+                },
+                "js_stat": {
+                    "title": "JavaScript - Static",
+                    "description": "For JavaScript-fans we've implement the same approach as in php, but in javascript."
+                }
+            }
+        },
+        "project": {
+            "title": "Multi<span>lingualism</span>",
+            "description": "This website serves as our final exam for the course 505 - Programmieren Graphischer Oberflächen, lead by Professor Dr. König. The point of this website is to show our fellow students how to develop multilingual applications, primarily focused on web."
+        },
+        "downloads": {
+            "title": "Download <span>examples</span>",
+            "button-text": "Download",
+            "github": {
+                "title": "GitHub",
+                "description": "We have put all of our example- and demo projects on our github. Link below."
+            },
+            "winzip": {
+                "title": "Zip-Archive",
+                "description": "If you don't like github, you can always just download the repositories content as a zip file instead."
+            },
+            "linux": {
+                "title": "Linux",
+                "description": "If you prefer linux's tarballs, we've got these aswell."
+            }
+        },
+        "functionality": {
+            "title": "How does it <span>work?</span>",
+            "steps": {
+                "1": {
+                    "title": "Download",
+                    "description": "First, download the project from the source of your choice."
+                },
+                "2": {
+                    "title": "Select a directory",
+                    "description": "As you see, we have multiple demos in our project. Please select one."
+                },
+                "3": {
+                    "title": "Copy the code",
+                    "description": "Now you can just copy our code and paste it in your project."
+                },
+                "4": {
+                    "title": "Any problems?",
+                    "description": "If you run into any problems, please have consult our <a href='' target='_blank'>research paper</a> (German only)."
+                }
+            }
+        },
+        "team": {
+            "title": "Team<span>members</span>",
+            "labels": {
+                "ainf": "Student of applied computer sciences, Bsc.",
+                "dainf": "Student of appliec computer sciences i.C, Bsc Dual."
+            }
+        }
+    },
+
+    "footer": {
+        "about": {
+            "title": "About us",
+            "text": "We are two students at the university of appliec sciences, Worms, Germany. This project will be available for all students as a first step to develop multilingual applications."
+        },
+        "quicklinks": {
+            "title": "Quick links"
+        },
+        "jury": {
+            "title": "Supervisors",
+            "jurors": [
+                "Prog. Graph Oberflächen",
+                "Prof. Dr. Werner König",
+                "HS Worms"
+            ]
+        }
+    }
+}
