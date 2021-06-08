@@ -185,7 +185,6 @@ ul{
     font-size: 40px;
     color : var(--black-900);
     font-weight: 700;
-    text-transform: capitalize;
     margin: 0;
 }
 .section-title h2 span{
@@ -262,8 +261,7 @@ ul{
     
 }
 .navbar .nav-item .nav-link{
-    color: #ffffff;
-    text-transform: capitalize;
+    color: #ffffff;    
     font-weight: 400;
     font-size: 16px;
     padding : 5px 0;
@@ -510,7 +508,6 @@ ul{
     margin: 0 0 20px;
     color: var(--black-900);
     font-weight: 500;
-    text-transform: capitalize;
 }
 .features .feature-item p {
     font-size : 16px;
@@ -639,7 +636,6 @@ ul{
     color: var(--black-900);
     margin: 20px 0;
     font-weight: 500;
-    text-transform: capitalize;
 }
 .app-download-item p{
     font-size: 16px;
@@ -684,7 +680,6 @@ ul{
     font-size: 22px;
     font-weight: 500;
     color: var(--black-900);
-    text-transform: capitalize;
 }
 .how-it-works-item p{
     font-size: 16px;
@@ -744,7 +739,6 @@ ul{
     color: var(--black-900);
     font-weight: 500;
     margin: 0 0 5px;
-    text-transform: capitalize;
 }
 .testimonial-item span{
     display: block;
@@ -780,14 +774,12 @@ ul{
     color: var(--black-900);
     font-weight: 500;
     margin: 15px 0;
-    text-transform: capitalize;
 }
 .team-item span{
     display: block;
     font-size: 16px;
     font-weight: 300;
     color: var(--black-400);
-    text-transform: capitalize;
 }
 .team-item .img {
     width: 100%;
@@ -866,7 +858,6 @@ ul{
     font-weight: 500;
     color: #ffffff;
     margin: 0 0 25px;
-    text-transform: capitalize;
 }
 .footer-col p{
     font-size: 16px;
@@ -887,7 +878,6 @@ ul{
     color: rgba(255,255,255,0.9);
     font-weight: 300;
     display: block;
-    text-transform: capitalize;
     transition: all 0.5s ease;
     text-decoration: none;
 }
