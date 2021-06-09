@@ -65,15 +65,21 @@
         <i class="fas"></i>
     </div>
     <div class="francais-theme">
-        <img src="images/francaissprache.png" alt="englisch">
+        <a href="?lang=frfr">
+            <img src="images/francaissprache.png" alt="francias">
+        </a>
     </div>
     <!-- Toggle Theme End -->
     <div class="deutsch-theme">
-        <img src="images/deutschsprache.png" alt="englisch">
+        <a href="?lang=dede">
+            <img src="images/deutschsprache.png" alt="deutsch">
+         </a>
     </div>
     <!-- Toggle Theme End -->
     <div class="englisch-theme">
-        <img src="images/englischesprache.png" alt="englisch">
+        <a href="?lang=enus">
+            <img src="images/englischesprache.png" alt="englisch">
+        </a>
     </div>
     <!-- Toggle Theme End -->
 
