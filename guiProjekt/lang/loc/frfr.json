@@ -1,0 +1,134 @@
+{
+    "head": {
+        "title": "Multilinguisme - Leon Etienne | Issam Charef",
+
+        "navbar": {
+            "title": "Multilinguisme",
+            "items": {
+                "home": "Home",
+                "intro": "Introduction",
+                "examples": "Exemples",
+                "project": "Projet",
+                "screenshots": "Captures",
+                "download": "Télécharger",
+                "functionality": "Fonctionnalité"
+            }
+        }
+    },
+
+    "body": {
+        "home": {
+            "title": "Prog. des surfaces graphique",
+            "description": "Ce site traite du multilinguisme. Nous vous expliquerons comment une application peut être implémentée avec plusieurs langues.",
+            "buttonText": "Télécharger le code source"
+        },
+        "faq": {
+            "title": "Introduction au <span>Multilinguisme</span>",
+            "questions": [
+                {
+                    "title": "Définition",
+                    "answer": "Le multilinguisme est la capacité d'une personne à comprendre plus d'une langue.<br> En informatique, il décrit le travail avec plusieurs langues au sein d'une application ."
+                },
+                {
+                    "title": "Implementation",
+                    "answer": "Grundsätzlich gibt es einige verschiedene Ansätze mit ihren individuellen Vor- und Nachteilen. Wann man welche Methode wie anwendet ist in unserer <a href='' target='_blank'>schriftlichen Ausarbeitung</a> ausführlich behandelt worden."
+                },
+                {
+                    "title": "Avantages",
+                    "answer": "Une application multilingue offre un large éventail d'avantages par rapport à une application monolingue. Il s'agit, par exemple, d'un groupe cible plus large et plus diversifié. <br> Une présence internationale sur Internet est essentielle, en particulier pour les entreprises internationales. <br> En particulier pour les systèmes de gestion de contenu, tels que  <a href='https://typo3.org/' target='_blank'>TYPO3</a> l'intégration de plusieurs localisations est souvent triviale car elle est nativement prise en charge."
+                },
+                {
+                    "title": "Désavantage ",
+                    "answer": "L'intégration d'un framework multilingue est souvent associée à beaucoup d'efforts et donc à des coûts élevés. Si le produit n'est de toute façon destiné qu'à un groupe cible monolingue, cette portée peut ne pas valoir la peine ."
+                }
+            ]
+        },
+        "examples": {
+            "title": "Simple <span>Exemples</span>",
+            "featureItems": {
+                "android": {
+                    "title": "Android",
+                    "description": "Nous avons développé pour vous une petite application Android simple et multilingue. Cela sert de point de départ qui peut être utilisé pour tout développement ultérieur n."
+                },
+                "php_dyn": {
+                    "title": "Dynamique",
+                    "description": "Bei diesem Example handelt es sich um ein MWE <sub>(minimal working example)</sub> einer dynamisch übersetzten Webseite. Diese wurde über den <a href='https://cloud.google.com/translate' target='_blank'>Cloud Translation</a>-Dienst von Google realisiert."
+                },
+                "php_stat": {
+                    "title": "Php - Statique",
+                    "description": "Ce site lui-même sert d'exemple pour la mise en œuvre d'une traduction statique en PHP ."
+                },
+                "js_stat": {
+                    "title": "JavaScript - Statique",
+                    "description": "Pour les fans de JavaScript, il existe également la même approche statique qui a également été implémentée en PHP, sous la forme d'une démonstration technique d'espace réservé ."
+                }
+            }
+        },
+        "project": {
+            "title": "Multi<span>linguisme</span>",
+            "description": "Ce site Web a été créé en tant que service de test pour le cours 505 - Programmation de surfaces graphiques sous la direction du professeur Dr. König développé afin de rapprocher les bases du multilinguisme en informatique de l'ensemble de la bourse du module de cours ."
+        },
+        "downloads": {
+            "title": "Exemples à <span>Télécharger</span>",
+            "button-text": "Télécharger",
+            "github": {
+                "title": "GitHub",
+                "description": "Nous avons publié toutes les démonstrations sur Github. Ceux-ci peuvent être atteints sous le lien ci-dessous ."
+            },
+            "winzip": {
+                "title": "Zip-Datei",
+                "description": "Si vous ne voulez pas traiter avec Github, vous pouvez utiliser ce lien direct vers un fichier zip."
+            },
+            "linux": {
+                "title": "Linux",
+                "description": "Ceux qui préfèrent profiter des avantages des tarballs peuvent appeler ce lien hypertexte direct vers le fichier .tar."
+            }
+        },
+        "functionality": {
+            "title": "Comment <span>Ça marche?</span>",
+            "steps": {
+                "1": {
+                    "title": "Télécharger",
+                    "description": "Vous devez d'abord télécharger le projet à partir du lien ci-dessus ."
+                },
+                "2": {
+                    "title": "Sélectionnez le répertoire",
+                    "description": "Comme vous pouvez le voir, nous avons plusieurs applications dans le projet. Vous devez choisir une plate-forme d'application ."
+                },
+                "3": {
+                    "title": "Code kopieren",
+                    "description": "Maintenant, vous pouvez simplement copier le code et l'ajouter à vos applications ."
+                },
+                "4": {
+                    "title": "Probleme?",
+                    "description": "Si vous rencontrez des difficultés, consultez le  <a href='' target='_blank'>Rapport scientifique</a>."
+                }
+            }
+        },
+        "team": {
+            "title": "équipe <span>membres</span>",
+            "labels": {
+                "ainf": "Étudiant en informatique appliquée ",
+                "dainf": "Étudiant en informatique appliquée - Groupe de Pratique"
+            }
+        }
+    },
+
+    "footer": {
+        "about": {
+            "title": "à propos de nous ",
+            "text": "Nous sommes deux étudiants en informatique à l'Université de Worms. Ce projet est mis à disposition de tous les étudiants afin d'acquérir un premier aperçu du multilinguisme en informatique."
+        },
+        "quicklinks": {
+            "title": "Liens rapides"
+        },
+        "jury": {
+            "title": "Encadrant",
+            "jurors": [
+                "Prog. des surfaces graphique",
+                "Prof. Dr. Werner König",
+                "HS Worms"
+            ]
+        }
+    }
+}
