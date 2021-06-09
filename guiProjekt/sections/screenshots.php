@@ -10,22 +10,22 @@
         <div class="row">
             <div class="owl-carousel screenshots-carousel">
                 <div class="screenshot-item">
-                    <img src="images/deutsch.png" alt="Img App">
+                    <img src="images/deutschfarbe.png" alt="Img App">
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/francais.png" alt="Img App">
+                    <img src="images/francaisneuefarbe.png" alt="Img App">
                 </div>
                 <div class="screenshot-item">
-                    <img src="images/englisch.png" alt="Img App">
+                    <img src="images/englischneuefarbe.png" alt="Img App">
                 </div>
                 <div class="screenshot-item">
                         <img src="images/deutsch.png" alt="Img App">
                 </div>
                 <div class="screenshot-item">
-                        <img src="images/francais.png" alt="Img App">
+                        <img src="images/francaisneuefarbe.png" alt="Img App">
                 </div>
                 <div class="screenshot-item">
-                        <img src="images/englisch.png" alt="Img App">
+                        <img src="images/englischneuefarbe.png" alt="Img App">
                 </div>
             </div>
         </div>

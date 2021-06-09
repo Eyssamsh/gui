@@ -952,7 +952,7 @@ ul{
     top: calc(50% - 60px);
     height: 40px;
     width: 40px;
-    background-color: var(--color-);
+    background-color: var(--color-3);
     z-index: 1200;
     cursor: pointer;
     border-radius: 50%;
