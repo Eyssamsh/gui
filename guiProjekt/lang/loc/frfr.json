@@ -20,7 +20,10 @@
         "home": {
             "title": "Prog. des surfaces graphique",
             "description": "Ce site traite du multilinguisme. Nous vous expliquerons comment une application peut être implémentée avec plusieurs langues.",
-            "buttonText": "Télécharger le code source"
+            "buttonText": "Télécharger le code source",
+            "images": {
+                "smartphone": "/images/francais.png"
+            }
         },
         "faq": {
             "title": "Introduction au <span>Multilinguisme</span>",

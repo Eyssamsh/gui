@@ -20,7 +20,10 @@
         "home": {
             "title": "Prog. Graphical user interfaces",
             "description": "This website is about multilingualism. We will show you how you can create multilingual applications!",
-            "buttonText": "Sourcecode herunterladen"
+            "buttonText": "Sourcecode herunterladen",
+            "images": {
+                "smartphone": "/images/englisch.png"
+            }
         },
         "faq": {
             "title": "Introduction <span>Multilingualism</span>",

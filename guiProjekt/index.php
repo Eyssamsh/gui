@@ -29,7 +29,7 @@
                  <div class="col-md-5 text-center">
                      <div class="home-img">
                          <div class="circle"></div>
-                         <img src="images/deutsch.png" alt="Img App">
+                         <img src="<?php echo($local_sctnHome["images"]["smartphone"]); ?>" alt="Img App">
                      </div>
                 </div>
             </div>
