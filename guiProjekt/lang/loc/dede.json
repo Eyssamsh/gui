@@ -21,14 +21,14 @@
             "title": "Prog. Graph Oberflächen",
             "description": "Auf dieser Webseite geht es um Mehrsprachigkeit. Wir werden euch erklären, wie eine Applikation mit mehreren Sprachen umgesetzt werden kann.",
             "buttonText": "Sourcecode herunterladen",
+            "ytvideo": "https://youtube.com/embed/P46fpud7gyU",
             "images": {
                 "smartphone": "/images/deutsch.png"
             }
         },
         "faq": {
             "title": "Einführung <span>Mehrsprachigkeit</span>",
-            "questions": [
-                {
+            "questions": [{
                     "title": "Definition",
                     "answer": "Mehrsprachigkeit ist die Fähigkeit eines Menschen, mit mehr als einer Sprache umzugehen.<br>In der Informatik beschreibt sie das Arbeiten mit mehreren Sprachen innerhalb einer Anwendung."
                 },

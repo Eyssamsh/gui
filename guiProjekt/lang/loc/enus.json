@@ -21,14 +21,14 @@
             "title": "Prog. Graphical user interfaces",
             "description": "This website is about multilingualism. We will show you how you can create multilingual applications!",
             "buttonText": "Sourcecode herunterladen",
+            "ytvideo": "https://www.youtube.com/embed/M1wLtAXDgqg",
             "images": {
                 "smartphone": "/images/englisch.png"
             }
         },
         "faq": {
             "title": "Introduction <span>Multilingualism</span>",
-            "questions": [
-                {
+            "questions": [{
                     "title": "Definition",
                     "answer": "Multilingualism is the ability of a human to process multiple languages.<br>In computer science, the definition is that an application is able to handle multiple different languages."
                 },

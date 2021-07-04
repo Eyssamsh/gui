@@ -21,14 +21,14 @@
             "title": "Prog. des surfaces graphique",
             "description": "Ce site traite du multilinguisme. Nous vous expliquerons comment une application peut être implémentée avec plusieurs langues.",
             "buttonText": "Télécharger le code source",
+            "ytvideo": "https://www.youtube.com/embed/PIQSEq6tEVs",
             "images": {
                 "smartphone": "/images/francais.png"
             }
         },
         "faq": {
             "title": "Introduction au <span>Multilinguisme</span>",
-            "questions": [
-                {
+            "questions": [{
                     "title": "Définition",
                     "answer": "Le multilinguisme est la capacité d'une personne à comprendre plus d'une langue.<br> En informatique, il décrit le travail avec plusieurs langues au sein d'une application ."
                 },
