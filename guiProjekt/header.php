@@ -78,6 +78,24 @@
                     <li class="nav-item">
                       <a class="nav-link" data-scroll-nav="6"><?php echo($local_navEntr["functionality"]) ?></a>
                     </li>
+                    
+                    <!-- Spacer to primary language selection -->
+                    <span class="nav-item text-white">
+                      &nbsp;
+                    </span>
+                    
+                    
+                    <!-- Primary language selection -->
+                    <li class="nav-item lang-selector">
+                      <a href="?lang=dede" class="nav-link">DE</a>
+                    </li>
+                    <li class="nav-item lang-selector">
+                      <a href="?lang=enus" class="nav-link">EN</a>
+                    </li>
+                    <li class="nav-item lang-selector">
+                      <a href="?lang=frfr" class="nav-link">FR</a>
+                    </li>
+
                   </ul>
                 </div>
             </div>
