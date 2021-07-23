@@ -1,0 +1,21 @@
+{
+    "body": {
+        "headline": "Scribble your life!",
+        "dropbox-tip": "Drop image here!",
+        "description": "Scribbles is a simple tool to convert almost any image into a fairly good hand-drawn sketchy looking artstyle.<br>It makes use of a handful of convolutionary image processing algorithms, most notably sobel edge detection, which compares nearby pixel values and reacts to brightness-deltas instead of absolute values. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, possimus eum quia maiores corrupti exercitationem maxime? Perspiciatis sapiente voluptatibus nostrum sed perferendis soluta suscipit rerum dolorem, iusto quis minus ullam sequi sint ratione nobis enim, omnis, dignissimos ad debitis repellendus sit vitae? Numquam, voluptates dicta!"
+    },
+    "footer": {
+        "link_col": {
+            "about_us": "About Us",
+            "faq": "FAQ",
+            "carreers": "Carreers",
+            "data_protection": "Data protection",
+            "imprint": "Imprint"
+        },
+        "email_col": {
+            "slogan": "Stay up to date on the latest scribbles!",
+            "placeholder": "Enter your e-mail address",
+            "button": "Sign Up"
+        }
+    }
+}

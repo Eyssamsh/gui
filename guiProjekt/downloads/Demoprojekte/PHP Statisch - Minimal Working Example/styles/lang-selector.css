@@ -1,0 +1,24 @@
+.lang-selector {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.lang-selector>.lang {
+    text-transform: uppercase;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.lang-selector>.lang:not(:first-of-type) {
+    border-left: 1px solid #111;
+}
+
+.lang-selector>.lang>a,
+.lang-selector>.lang>a:visited,
+.lang-selector>.lang>a:hover {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,21 @@
+{
+    "body": {
+        "headline": "Zeichne deinen Style",
+        "dropbox-tip": "Bild hier ablegen",
+        "description": "Scribbles ist ein einfaches Tool, um nahezu jedes Bild in eine mehr oder weniger gut aussehende Freihand-Skizze umzuwandeln.<bt>Hierfür wird eine Handvoll konvolutionäre Bildbearbeitungsalgorithmen verwendet. Der wichtigste ist hierbei der Sobel-Kantenerkennungs Algorithmus. Dieser vergleicht aneinander liegende Pixelwerte und reagiert somit ausschließlich auf Helligkeitsunterschiede, anstatt auf die absolute Helligkeit.<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, at porro. Assumenda, provident voluptatibus tempore inventore aliquid numquam ab magni voluptatem. Pariatur voluptates officiis nihil dolorem quisquam natus facilis, sapiente quasi nemo fugiat consequatur recusandae unde odio ipsa eos reprehenderit nisi architecto, non veniam quibusdam!"
+    },
+    "footer": {
+        "link_col": {
+            "about_us": "Über uns",
+            "faq": "FAQ",
+            "carreers": "Karriere",
+            "data_protection": "Datenschutzerklärung",
+            "imprint": "Impressum"
+        },
+        "email_col": {
+            "slogan": "Bleib auf dem Laufenden!",
+            "placeholder": "E-Mail Adresse eingeben",
+            "button": "Anmelden"
+        }
+    }
+}

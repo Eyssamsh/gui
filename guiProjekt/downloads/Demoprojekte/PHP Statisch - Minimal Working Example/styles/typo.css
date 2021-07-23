@@ -1,0 +1,14 @@
+.headline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46pt;
+    font-style: italic;
+    text-align: center;
+
+    filter: drop-shadow(0 0 0 #999);
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    width: 50%;
+}
