@@ -35,7 +35,7 @@
                     <i class="fab fa-linux"></i>
                     <h3><?php echo($local_sctnDown["linux"]["title"]); ?></h3>
                     <p><?php echo($local_sctnDown["linux"]["description"]); ?></p>
-                    <a href="#" class="btn btn-2"><?php echo($local_sctnDown["button-text"]); ?></a>
+                    <a href="/downloads/linux-ver.tar.gz" class="btn btn-2"><?php echo($local_sctnDown["button-text"]); ?></a>
                 </div>
             </div>
         </div>
