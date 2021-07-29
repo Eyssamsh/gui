@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mehrsprachigkeit</string>
+    <string name="copyright">Copyright - Issam Charef - Leon Etienne</string>
+    <string name="welcome_msg">Wilkommen</string>
+    <string name="msg">Die App ist für alle Studierenden an der HS Worms - wir zeigen euch hier ,wie man Mehrsprachigkeit in einer Android App mit Java implementieren kann.</string>
+    <string name="notiz">Die App ist ein Einstieng für alle Studieren - Der Source Code ist im Github herunterzuladen. </string>
+    <string name="prof"> Prof. Dr. Werner König </string>
+    <string name="dank_text"> Vielen Dank. </string>
+</resources>
