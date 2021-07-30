@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جميع اللغات</string>
+    <string name="copyright">جميع الحقوق محفوظة</string>
+    <string name="welcome_msg">اهلا وسهلا</string>
+    <string name="msg">التطبيق هو لجميع الطلبة في المدرسة العليا فورمس - هنا نشرح لكم كيف تعملو تطبيق متعدد اللغات في لغة الجافا. </string>
+    <string name="notiz"> التطبيق مجاني ويمكن اي واحد يحملو على موقع جيتهاب. </string>
+    <string name="prof"> الاستاد كونيغ</string>
+    <string name="dank_text"> شكرا لكم. </string>
+</resources>
